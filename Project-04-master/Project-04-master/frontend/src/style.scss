@@ -1,0 +1,326 @@
+@import 'bulma';
+
+//Primary colours:
+// #E38627 - orange
+// #C13C37 - burnt orange
+// #6A2135 - wine
+
+// Secondary colours:
+// #E9D758 - yellow
+// #297373 - blue
+// #544343 - brown
+// #626D58 - dark green
+// #77966D - green
+
+.logo {
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+.homepage-container {
+  margin: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.homepagesignin {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 100px;
+  margin-right: 120px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.homepageherotext {
+  margin: 60px;
+}
+
+.hero-title {
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.hero-subtitle {
+  color: white;
+  font-weight: 600;
+}
+
+.homepagebanner {
+  background-image: url('https://i.imgur.com/wIiyzKw.jpg');
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  padding-top: 10px;
+  margin-top: 0.1px;
+}
+
+.infobox {
+  max-width: 350px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+}
+
+.cardinfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+h4.content.text.reference {
+  width: 100px;
+}
+
+h4.content.text.counterparty {
+  width: 300px;
+}
+
+h4.content.text.description {
+  width: 230px;
+}
+
+h4.content.text.timestamp {
+  width: 150px;
+}
+
+h4.content.text.amount {
+  width: 150px;
+}
+
+h4.content.text.referenceheader {
+  width: 100px;
+  color: white;
+}
+
+h4.content.text.counterpartyheader {
+  width: 300px;
+  color: white;
+}
+
+h4.content.text.descriptionheader {
+  width: 230px;
+  color: white;
+}
+
+h4.content.text.timestampheader {
+  width: 150px;
+  color: white;
+}
+
+h4.content.text.amountheader {
+  width: 100px;
+  color: white;
+}
+
+div.buttonsdiv {
+  margin-bottom: 5px;
+}
+
+div.hero-body.mainhero {
+  height: 20px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 40px;
+  display: flex;
+}
+
+.homebutton{
+  height: 30px;
+  float: right;
+  margin-left: 5px;
+}
+
+.content.text {
+  margin: 0px;
+}
+
+div.tile.notification.is-dark {
+  margin-bottom: 5px;
+}
+
+input.input.is-fullwidth.searchbar {
+  width: 400px;
+}
+
+.counterpartyinfo {
+  display: flex;
+  justify-content: left;
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+.counterpartydetails {
+  display: flex;
+
+}
+
+.showinfo {
+  margin-right: 50px;
+}
+
+.titleblock {
+  display: flex;
+  justify-content: space-between;
+}
+
+.personaldashboard {
+  margin-top: 20px;
+}
+
+.editshow {
+  margin-right: 5px;
+}
+
+.showsections {
+  display: flex;
+  background-color: #f8f8f8;
+  margin-left: -25px;
+  margin-right: -25px;
+}
+
+div.media-content {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+div.showsection {
+  background-color: #ffffff;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+div.showsectionhomepage {
+  background-color: #ffffff;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  margin-left: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.companyinfohome {
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.companyinfohome {
+  margin-left: 30px;
+}
+
+.personaldashboard {
+  display: flex;
+}
+
+.rowheader {
+  background-color: #363636;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  margin-right: 36px;
+  margin-top: 20px;
+}
+
+.rowheaderuniversal {
+  background-color: #363636;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.counterpartyrow {
+  margin-right: 36px;
+}
+
+.counterpartyrevenue {
+  font-size: 30px;
+  color: #C13C37;
+  font-weight: bolder;
+}
+
+.debtorlist {
+  margin-left: 28px;
+  margin-right: 28px;
+}
+
+.showpagebuttondelete {
+  margin-right: 40px;
+}
+
+section.section.showcounterparty {
+  padding: 0px;
+  margin-right: 5px;
+}
+
+.showcounterpartybuttons {
+  display: flex;
+  }
+
+.popupbutton {
+  float: right;
+}
+
+  section.section.addcustomer {
+    padding-bottom: 0px;
+    padding-top: 30px;
+  }
+
+  .transactionview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 800px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.transactionviewbutton {
+}
+
+.transactionviewbox {
+  display: flex;
+  justify-content: center;
+}
+
+
+  .transactiontitle {
+    margin-left: 5px;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+  }
+
+  .infotitle {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #E38627;
+  }
+
+.footer {
+  margin-top: -12px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footertext {
+  font-size: 15px;
+}

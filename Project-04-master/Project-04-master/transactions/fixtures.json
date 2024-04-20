@@ -1,0 +1,591 @@
+[
+{
+  "model": "transactions.siccode",
+  "pk": 7,
+  "fields": {
+    "sicnumber": "9900-9999 Nonclassifiable"
+  }
+},
+{
+  "model": "transactions.siccode",
+  "pk": 8,
+  "fields": {
+    "sicnumber": "6000-6799 Finance, Insurance and Real Estate"
+  }
+},
+{
+  "model": "transactions.siccode",
+  "pk": 9,
+  "fields": {
+    "sicnumber": "4000-4999 Transportation, Communications, Electric, Gas and Sanitary service"
+  }
+},
+{
+  "model": "transactions.siccode",
+  "pk": 10,
+  "fields": {
+    "sicnumber": "1000-1499 Mining"
+  }
+},
+{
+  "model": "transactions.siccode",
+  "pk": 11,
+  "fields": {
+    "sicnumber": "0100-0999 Agriculture, Forestry and Fishing"
+  }
+},
+{
+  "model": "transactions.siccode",
+  "pk": 12,
+  "fields": {
+    "sicnumber": "2000-3999 Manufacturing"
+  }
+},
+{
+  "model": "transactions.siccode",
+  "pk": 13,
+  "fields": {
+    "sicnumber": "5000-5199 Wholesale Trade"
+  }
+},
+{
+  "model": "transactions.siccode",
+  "pk": 14,
+  "fields": {
+    "sicnumber": "5200-5999 Retail Trade"
+  }
+},
+{
+  "model": "transactions.siccode",
+  "pk": 15,
+  "fields": {
+    "sicnumber": "7000-8999 Services"
+  }
+},
+{
+  "model": "transactions.siccode",
+  "pk": 16,
+  "fields": {
+    "sicnumber": "9100-9729 Public Administration"
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 1,
+  "fields": {
+    "reference": "3455D",
+    "amount": 34.5,
+    "currency": "GBP",
+    "description": "wine from the shop",
+    "transaction_timestamp": "2019-09-05T13:01:19.867Z",
+    "counterparty": 2
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 7,
+  "fields": {
+    "reference": "56000DF",
+    "amount": 2005.4,
+    "currency": "GBP",
+    "description": "Goods sold at premise",
+    "transaction_timestamp": "2019-09-05T14:42:09.372Z",
+    "counterparty": 6
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 8,
+  "fields": {
+    "reference": "Invoice45",
+    "amount": 2450.4,
+    "currency": "GBP",
+    "description": "Goods sold at premise",
+    "transaction_timestamp": "2019-09-05T14:42:42.232Z",
+    "counterparty": 5
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 9,
+  "fields": {
+    "reference": "GH4002",
+    "amount": -20.3,
+    "currency": "GBP",
+    "description": "Postage",
+    "transaction_timestamp": "2019-09-05T14:43:13.555Z",
+    "counterparty": 7
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 10,
+  "fields": {
+    "reference": "F00034",
+    "amount": -14.5,
+    "currency": "GBP",
+    "description": "Taxi expense",
+    "transaction_timestamp": "2019-09-05T14:43:44.194Z",
+    "counterparty": 10
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 11,
+  "fields": {
+    "reference": "Invoice34",
+    "amount": 6504.34,
+    "currency": "GBP",
+    "description": "Goods sold online",
+    "transaction_timestamp": "2019-09-05T14:44:18.436Z",
+    "counterparty": 9
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 12,
+  "fields": {
+    "reference": "450002",
+    "amount": -345.0,
+    "currency": "GBP",
+    "description": "Marketing material",
+    "transaction_timestamp": "2019-09-05T14:44:51.145Z",
+    "counterparty": 6
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 13,
+  "fields": {
+    "reference": "Invoice3",
+    "amount": 7840.4,
+    "currency": "GBP",
+    "description": "Goods sold at premise",
+    "transaction_timestamp": "2019-09-05T14:45:16.638Z",
+    "counterparty": 5
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 14,
+  "fields": {
+    "reference": "34",
+    "amount": 3400.0,
+    "currency": "GBP",
+    "description": "Goods sold",
+    "transaction_timestamp": "2019-09-11T18:28:24.654Z",
+    "counterparty": 4
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 15,
+  "fields": {
+    "reference": "345",
+    "amount": 4534.5,
+    "currency": "GBP",
+    "description": "Online sales - Aug-19",
+    "transaction_timestamp": "2019-09-11T18:29:16.602Z",
+    "counterparty": 4
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 16,
+  "fields": {
+    "reference": "Invoice7",
+    "amount": 3400.0,
+    "currency": "GBP",
+    "description": "Online sales - Aug-19",
+    "transaction_timestamp": "2019-09-11T18:30:27.885Z",
+    "counterparty": 5
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 17,
+  "fields": {
+    "reference": "Invoice4",
+    "amount": 1200.0,
+    "currency": "GBP",
+    "description": "Overseas order",
+    "transaction_timestamp": "2019-09-11T18:31:57.749Z",
+    "counterparty": 5
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 18,
+  "fields": {
+    "reference": "Invoice5",
+    "amount": 34500.0,
+    "currency": "GBP",
+    "description": "Meats order-45",
+    "transaction_timestamp": "2019-09-11T18:33:02.300Z",
+    "counterparty": 5
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 20,
+  "fields": {
+    "reference": "345A",
+    "amount": 54000.0,
+    "currency": "GBP",
+    "description": "1yr sponsorship",
+    "transaction_timestamp": "2019-09-11T18:35:11.053Z",
+    "counterparty": 10
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 21,
+  "fields": {
+    "reference": "GH45",
+    "amount": 3200.0,
+    "currency": "GBP",
+    "description": "Wine order 34",
+    "transaction_timestamp": "2019-09-11T18:38:21.367Z",
+    "counterparty": 2
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 22,
+  "fields": {
+    "reference": "GH46",
+    "amount": 3700.0,
+    "currency": "GBP",
+    "description": "Wine box order 45",
+    "transaction_timestamp": "2019-09-11T18:38:39.888Z",
+    "counterparty": 2
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 23,
+  "fields": {
+    "reference": "GH48",
+    "amount": 14000.42,
+    "currency": "GBP",
+    "description": "Wine box order 120",
+    "transaction_timestamp": "2019-09-11T18:39:02.965Z",
+    "counterparty": 2
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 24,
+  "fields": {
+    "reference": "4300D",
+    "amount": 3200.0,
+    "currency": "GBP",
+    "description": "marketing leaflets 20",
+    "transaction_timestamp": "2019-09-11T18:39:57.047Z",
+    "counterparty": 6
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 25,
+  "fields": {
+    "reference": "4300D",
+    "amount": 4532.0,
+    "currency": "GBP",
+    "description": "marketing leaflets 22",
+    "transaction_timestamp": "2019-09-11T18:40:31.472Z",
+    "counterparty": 6
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 26,
+  "fields": {
+    "reference": "4320F",
+    "amount": 2780.5,
+    "currency": "GBP",
+    "description": "Leaflet oder 45",
+    "transaction_timestamp": "2019-09-11T18:41:04.339Z",
+    "counterparty": 6
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 27,
+  "fields": {
+    "reference": "4320F",
+    "amount": 2780.5,
+    "currency": "GBP",
+    "description": "Leaflet purchase 47",
+    "transaction_timestamp": "2019-09-11T18:41:14.421Z",
+    "counterparty": 6
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 28,
+  "fields": {
+    "reference": "GH3400",
+    "amount": 6700.2,
+    "currency": "GBP",
+    "description": "Online sales Aug 2019",
+    "transaction_timestamp": "2019-09-11T18:42:13.758Z",
+    "counterparty": 7
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 29,
+  "fields": {
+    "reference": "GH3400",
+    "amount": 14000.2,
+    "currency": "GBP",
+    "description": "Store sales Aug 2019",
+    "transaction_timestamp": "2019-09-11T18:42:33.943Z",
+    "counterparty": 7
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 30,
+  "fields": {
+    "reference": "Invoice4",
+    "amount": 1200.34,
+    "currency": "GBP",
+    "description": "Branded box order 34",
+    "transaction_timestamp": "2019-09-11T18:43:51.456Z",
+    "counterparty": 8
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 31,
+  "fields": {
+    "reference": "Invoice4",
+    "amount": 7002.0,
+    "currency": "GBP",
+    "description": "Branded stationary order 56",
+    "transaction_timestamp": "2019-09-11T18:44:12.734Z",
+    "counterparty": 8
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 32,
+  "fields": {
+    "reference": "Invoice4",
+    "amount": 121.0,
+    "currency": "GBP",
+    "description": "Branded stationary order 34",
+    "transaction_timestamp": "2019-09-11T18:44:24.891Z",
+    "counterparty": 8
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 33,
+  "fields": {
+    "reference": "Invoice4",
+    "amount": 34.5,
+    "currency": "GBP",
+    "description": "sales",
+    "transaction_timestamp": "2019-09-11T21:06:15.371Z",
+    "counterparty": 4
+  }
+},
+{
+  "model": "transactions.transaction",
+  "pk": 34,
+  "fields": {
+    "reference": "3453D",
+    "amount": 120.0,
+    "currency": "GBP",
+    "description": "sales online",
+    "transaction_timestamp": "2019-09-12T09:00:00.425Z",
+    "counterparty": 4
+  }
+},
+{
+  "model": "transactions.counterparty",
+  "pk": 2,
+  "fields": {
+    "companyname": "BERRY BROS. & RUDD LIMITED",
+    "companyregistration": "05490962",
+    "note": "Spoke to Christina from accounting. The next payment will be late.",
+    "sicCodes": [
+      14
+    ]
+  }
+},
+{
+  "model": "transactions.counterparty",
+  "pk": 4,
+  "fields": {
+    "companyname": "WAITROSE LIMITED",
+    "companyregistration": "00099405",
+    "note": "Spoke to Christina from accounting. The next payment will be late.",
+    "sicCodes": [
+      13
+    ]
+  }
+},
+{
+  "model": "transactions.counterparty",
+  "pk": 5,
+  "fields": {
+    "companyname": "TESCO PLC",
+    "companyregistration": "00445790",
+    "note": "Spoke to Christina from accounting. The next payment will be late.",
+    "sicCodes": [
+      13
+    ]
+  }
+},
+{
+  "model": "transactions.counterparty",
+  "pk": 6,
+  "fields": {
+    "companyname": "WANNA LIMITED",
+    "companyregistration": "07353626",
+    "note": "Spoke to Christina from accounting. The next payment will be late.",
+    "sicCodes": [
+      12
+    ]
+  }
+},
+{
+  "model": "transactions.counterparty",
+  "pk": 7,
+  "fields": {
+    "companyname": "WOLF & BADGER LTD",
+    "companyregistration": "06980629",
+    "note": "Spoke to Christina from accounting. The next payment will be late.",
+    "sicCodes": [
+      13,
+      14,
+      15
+    ]
+  }
+},
+{
+  "model": "transactions.counterparty",
+  "pk": 8,
+  "fields": {
+    "companyname": "ACCOUNTANT CORNWALL LIMITED",
+    "companyregistration": "08218191",
+    "note": "Spoke to Christina from accounting. The next payment will be late.",
+    "sicCodes": [
+      15
+    ]
+  }
+},
+{
+  "model": "transactions.counterparty",
+  "pk": 9,
+  "fields": {
+    "companyname": "ASDA HOLDINGS UK LIMITED",
+    "companyregistration": "03918551",
+    "note": "Spoke to Christina from accounting. The next payment will be late.",
+    "sicCodes": [
+      13,
+      14
+    ]
+  }
+},
+{
+  "model": "transactions.counterparty",
+  "pk": 10,
+  "fields": {
+    "companyname": "BLUE AND WHITE SQUARED LTD",
+    "companyregistration": "08198489",
+    "note": "Spoke to Christina from accounting. The next payment will be late.",
+    "sicCodes": [
+      12
+    ]
+  }
+},
+{
+  "model": "transactions.counterparty",
+  "pk": 11,
+  "fields": {
+    "companyname": "FARM ADVENTURE LTD",
+    "companyregistration": "07410439",
+    "note": "Spoke to Christina from accounting. The next payment will be late.",
+    "sicCodes": [
+      9
+    ]
+  }
+},
+{
+  "model": "transactions.counterparty",
+  "pk": 12,
+  "fields": {
+    "companyname": "POST OFFICE LIMITED",
+    "companyregistration": "02154540",
+    "note": "Spoke to Christina from accounting. The next payment will be late.",
+    "sicCodes": [
+      15
+    ]
+  }
+},
+{
+  "model": "transactions.counterparty",
+  "pk": 13,
+  "fields": {
+    "companyname": "AJH COMMERCIAL LIMITED",
+    "companyregistration": "11051970",
+    "note": "Spoke to Christina from accounting. The next payment will be late.",
+    "sicCodes": [
+      8
+    ]
+  }
+},
+{
+  "model": "transactions.counterparty",
+  "pk": 14,
+  "fields": {
+    "companyname": "DA ANALYTICS LTD",
+    "companyregistration": "11812143",
+    "note": "Spoke to Christina from accounting. The next payment will be late.",
+    "sicCodes": [
+      15
+    ]
+  }
+},
+{
+  "model": "transactions.counterparty",
+  "pk": 15,
+  "fields": {
+    "companyname": "FACEBOOK UK LTD",
+    "companyregistration": "06331310",
+    "note": "Spoke to Christina from accounting. The next payment will be late.",
+    "sicCodes": [
+      15
+    ]
+  }
+},
+{
+  "model": "transactions.counterparty",
+  "pk": 16,
+  "fields": {
+    "companyname": "TILES & CO. LTD",
+    "companyregistration": "06736754",
+    "note": "Spoke to Christina from accounting. The next payment will be late.",
+    "sicCodes": [
+      8
+    ]
+  }
+},
+{
+  "model": "transactions.counterparty",
+  "pk": 17,
+  "fields": {
+    "companyname": "NPOWER LIMITED",
+    "companyregistration": "03653277",
+    "note": "Spoke to Christina from accounting. The next payment will be late.",
+    "sicCodes": [
+      9
+    ]
+  }
+}
+]
